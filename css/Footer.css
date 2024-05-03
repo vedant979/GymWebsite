@@ -1,0 +1,220 @@
+.info{
+    background: #070707ED;
+
+    height: 85%;
+    width: 100%;
+}
+.copyright{
+    background-color: #FFA500BA;
+    text-align: center;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright-heading{
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: 700;
+
+}
+.copyright-heading-1{
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: 700;
+    display: none;
+}
+.info-wwrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-basis: 33%; */
+    align-items: center;
+    justify-content: center;
+}
+.left-part{
+    height: 60%;
+    /* border: 1px solid white; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.mid-part{
+    height: 60%;
+    /* border: 1px solid white; */
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.mid-part-wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.left-part-logo{
+    height: 60%;
+}
+.left-part-title{
+    width: 70%;
+}
+.title-para{
+    color: #FFA500BA;
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+}
+.mid-part-left-col, .mid-part-mid-col, .mid-part-right-col{
+
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.mid-part-mid-col{
+    height: 80%;
+}
+.mid-part-left-col a, .mid-part-mid-col a, .mid-part-right-col a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.left-col-link-wrapper{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.mid-col-link-wrapper{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* padding-top: 5px; */
+}
+
+.right-col-link-wrapper{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* padding-top: 5px; */
+}
+/* .mid-col-title, .right-col-title{
+    margin-bottom: 10px;
+} */
+.common-para{
+    color: white;
+    font-size: 1.5vw !important;
+}
+.right-col-link-wrapper p, .mid-col-link-wrapper p, .left-col-link-wrapper{
+    font-size: 15px !important;
+    font-weight: 500;
+}
+.common-link p{
+    font-size: 1.3vw !important;
+    font-weight: 500 !important;
+}
+
+.right-part{
+    height: 80%;
+    /* border: 1px solid white; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-part-popular-tags{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.popular-tags{
+    color: #FFA500BA;
+    font-size: 1.5vw !important;
+    text-decoration: underline;
+}
+.right-part-row-1, .right-part-row-2,
+.right-part-row-3, .right-part-row-4{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right-part-common-para{
+    color: white;
+    
+    font-size: 1.5vw !important;
+    font-weight: 500 !important;
+}
+
+.boxes{
+    /*padding: 5px;
+    */border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    height: 80%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.left-box{
+    width: 30%;
+    /* border-radius: 4px; */
+background: #8D8383;
+}
+.right-box{
+    width: 45%;
+    /* border-radius: 4px; */
+background: #8D8383;
+}
+
+.left-box-r2{
+    width: 45%;
+    background: #FFA500;
+    
+}
+.right-box-r2{
+    width: 30%;
+    background: #8D8383;
+}
+.left-box-r3{
+    width: 35%;
+
+    background: #8D8383;
+    
+}
+.right-box-r3{
+    width: 38%;
+    background: #FFA500;
+}
+.mid-box-r4{
+    width:50%;
+    background: #FFA500;
+}
+.right-part-common-para{
+    letter-spacing: 1px;
+}
+.wrap-mid, .btn-wrapper{
+    display: none;
+}

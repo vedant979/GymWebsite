@@ -1,0 +1,91 @@
+/* --------------------------------------------------------------ANDROID-VIEW---------------------------------------------------------------- */
+@media (min-width:280px) and (max-width:350px){
+    .modal-nav h1{
+        position: absolute;
+        left: 2%;
+    }
+}
+
+@media (min-width:280px) and (max-width:650px){
+    .modal{
+        width: 100%;
+        /* height: 90%; */
+    }
+    .sub-cont-1 label p{
+        font-size: 4vw;
+    }
+    .radio-btn label{
+        font-size: 3vw;
+    }
+    .cont-1 p, .cont-2 p{
+        font-size: 4vw;
+    }
+    .cont-2 h5{
+        top: -12%;
+        left: 50%;
+    }
+    .btn-1{
+        font-size: 2.5vw;
+        height: 35px;
+    }   
+    .left-container p{
+        font-size: 2.2vw;
+    }
+    .cont-2{
+        line-height: 15px;
+    }
+    .close-btn{
+        top: 4.5%;
+        right: 1.5%;
+    }
+}
+
+
+/* --------------------------------------------------------------TABLET-VIEW---------------------------------------------------------------- */
+
+
+@media (min-width:650px){
+
+    .modal{
+        width: 60%;
+    }
+    .btn-1{
+        width: 35%;
+        height: 35px;
+    }
+    .cont-2 h5{
+        top: -18%;
+        left: 35%;
+    }
+}
+
+
+
+/* --------------------------------------------------------------FOR_LARGER_SCREENS---------------------------------------------------------------- */
+
+@media (min-width:1024px) and (min-height:700px){
+    .modal{
+        height: 90%;
+    }
+    .sub-cont-1 label{
+        line-height: 40px;
+    }
+    
+    .cont-2{
+        line-height: 40px;
+    }
+}
+
+
+@media  (min-height:800px){
+    .modal{
+        height: 80%;
+    }
+    .sub-cont-1 label{
+        line-height: 45px;
+    }
+    
+    .cont-2{
+        line-height: 45px;
+    }
+}

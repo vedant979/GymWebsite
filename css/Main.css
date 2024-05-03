@@ -1,0 +1,420 @@
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    font-family:  sans-serif ;
+
+    /* overflow: hidden; */
+}
+button{
+    font-family:  'Radio Canada';
+}
+.main-container{
+    /* min-width: 500px; */
+    height: max-content;
+    /* overflow-x: hidden; */
+   
+    /* min-width:100%; */
+    /* width: 100%; */
+    /* min-height: 2975px; */
+    /* min-height: 3vw; */
+}
+.body-container{
+    height: 100vh;
+}
+.first-bgimage{
+    height: 100%;
+    width: 100%;
+}
+.second-bgimage{
+    height: 70%;
+    width: 100%;
+}
+.size{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    position: absolute;
+    left: 60px;
+    top: 190px;
+    height: 60%;
+    background-color: rgba(29, 28, 29, 0.7);
+    width: 40%;
+}
+
+.card-1-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    height: 60%;
+}
+.head-revitalize, .head-revitalize-2{
+    color: white;
+    font-size: 4.16vw;
+}
+.head-revitalize-2{display: none;}
+.para-1{
+    color: white;
+    font-size: 1.25vw;
+    font-weight: 100 !important;
+}
+.card-btn-container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-btn-container button{
+    border-radius:5px;
+    width: 47%;
+    height: 90%;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.card-btn-container .card-btn-1{
+    background-color: #ffa500;
+    border-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+}
+.card-btn-container .card-btn-2{
+    border: 2px solid #ffa500;
+    background-color: #4d4848;
+    color: white;
+    font-size: 1.1rem;
+}
+.second-bgimage{
+    /* height: 70% !important; */
+    border-top: 3px solid white;
+    background-color: #ffe2ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img-row-1{
+    border-bottom: 2px solid #ffa600;
+}
+.img-row-1, .img-row-2{
+    display: flex;
+}
+.img-row-1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 150px; */
+    height: 100px;
+
+    width: 220px;
+    /* border: 1px solid black; */
+}
+.img-row-1 .icon-weight-loss{
+
+    border-right: 2px solid #ffa600;
+}
+.img-row-1 .icon-classic-yoga{
+    border-right: 2px solid #ffa600;
+}
+.img-row-2 div{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 150px; */
+    height: 100px;
+    width: 220px;
+    /* border: 1px solid black; */
+}
+.img-row-1 div p{
+    font-weight: 700;
+}
+.img-row-2 div p{
+    font-weight: 700;
+}
+.img-row-2 .icon-body-building{
+    border-right: 2px solid #ffa600;
+}
+.img-row-2 .icon-hypertrophy{
+    border-right: 2px solid #ffa600;
+}
+.head-fitness-plans h1{
+    border-bottom: 1px solid black;
+}
+.link-wrapper{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    /* background-color: black; */
+
+}
+.social-links{
+    position: relative;
+    top: -60px;
+    background-color: #ffa500;
+    transform-origin: right ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+
+
+}
+.icon-shadow{
+     border: 1px solid #ffffff;
+     position: relative;
+     background-color: #ffa500;
+     height:40px;
+     top: -18.5px;
+     width:160px;
+     transform: skew(-35deg);
+     -webkit-transform: skew(-35deg);
+     -moz-transform: skew(-35deg);
+     -ms-transform: skew(-35deg);
+     -o-transform: skew(-35deg);
+}
+.icon-size{
+    height: 25px;
+}
+.logo-size{
+    height: 100%;
+}
+
+.third-bgimage{
+    border: 1px solid black;
+    height: 70%;
+    width: 100%;
+    background-image: url(../assets/images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-position-x: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-bgimage-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+    width: 70%;
+    height: 80%;
+}
+.subscription-heading{
+    color: #ffa500;
+    font-weight: 100;
+    font-size: 30px;
+}
+.third-card-wrapper{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.third-card-wrapper .cards{
+    /* border: 1px solid white; */
+    border-radius: 6px;
+    background: #FFFFFF33;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 90%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.cards .cards-div{
+    /* border: 1px solid white; */
+    height: 60px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.cards .cards-div .price, .sameAsPrice{
+    color: #ffa500;
+    font-size: 2vw;
+}
+.card-btn-3{
+    border: 2px solid #ffa500;
+    background-color: #4d4848;
+    color: white;
+    font-size: 1.1vw;
+    width: 72%;
+    height: 80%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.cards-div-grey-para{
+    color: #B5AAAA;
+    font-size: 1vw;
+}
+.fourth-bgimage{
+        /* border: 1px solid black; */
+        height: 70%;
+        width: 100%;
+        background: #FFA500BA;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    
+}
+.fitness-bgimg{
+    height: 50%;
+    width: 100%;
+}
+.fitness-img-size{
+    height: 100%;
+    width: 100%;
+}
+.card-btn-2 {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.card-btn-2 img{
+    height: 35%;
+}
+.div-club-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-color: white;
+    width: 70%;
+    height: 80%;
+    top: -100px;
+    left: 15%;
+}
+.sub-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 33%;
+    height: 90%;
+    /* border: 1px solid black; */
+}
+.sub-cards .title{
+    font-size: 1.736vw;
+    font-weight: 700;
+}
+.sub-cards-img{
+    /* width: 100%; */
+    height: 100%;
+
+}
+.gym-img-size{
+    height: 50%;
+}
+.sub-cards .scpara{
+    line-height: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1vw;
+}
+.gym-img-size{
+    height: 80%;
+}
+.fifth-bgimage-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+    width: 70%;
+    height: 90%;
+}
+.fifth-bgimg{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-cards{
+        height: 100%;
+        width: 22%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+}
+.one{
+    /* overflow: hidden; */
+}
+.cards-div{
+    height: 10%;
+    width: 100%;
+}
+.review-para{
+    margin-top: 5px;
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-align: justify;
+    /* width: 150px; */
+}
+#img-1-review{
+    /* height: 100%; */
+}
+.cards-img-div{
+    height: 80%;
+    width: 100%;
+}
+.review-img-size{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.review-para{
+    color: #FFA500BA;
+    text-align: center;
+}
+.last-home-section{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ---------------footer-css----------------- */
+

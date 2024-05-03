@@ -1,0 +1,290 @@
+/* --------------Section-1------------------ */
+.container-1{
+    height: 100%;
+    width: 100%;
+}
+.classes-heading{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.bg-img{
+    height: 100%;
+    width: 100%;
+    /*background-color: black;
+    */background: url(../assets/images/pexels-taryn-elliott-4099238.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: absolute;
+    */filter: blur(5px);
+    -webkit-filter: blur(5px);
+    /*z-index: 99;
+     */
+}
+.page2-class-timing{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black;
+    background: url(../assets/images/pexels-taryn-elliott-4099238.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+    /*background-color: lightgray 50% ;
+    */
+    /* -webkit-filter: blur(10px); */
+}
+.page2-classTiming-wrapper{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.page2-card-wrapper{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page2-cards-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-container{
+    overflow: hidden;
+    width: 50%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.img-size{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.resize{
+    height: 100%;
+}
+.page2-btn-1{
+    width: 55%;
+    height:100%;
+    border-radius: 120px;
+    border: 1px solid transparent;
+    background: #ffa500;
+    color: white;
+    font-size: 2vw;
+    font-weight: 400;
+}
+/* .separate{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+
+/* ------------------section-1-END----------------------- */
+
+/* ---------------------section-2---------------------------- */
+
+
+.classes-heading{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.classes-heading p{
+    font-size: 3vw;
+}
+
+.container-2{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+}
+.bg-img-2{
+    height: 100%;
+    width: 100%;
+    /*background-color: black;
+    */background: url(../assets/images/dumbell.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: absolute;
+    */filter: blur(5px);
+    -webkit-filter: blur(5px);
+    /*z-index: 99;
+     */
+}
+.wrapper{
+    position: absolute;
+    width: 100%;
+    top: 111%;
+    height: 100%;
+}
+/* .page2-partners{
+    height: 90%;
+    background-color: black;
+} */
+.page2-card-wrapper-2{
+    z-index: 111;
+    height: 60%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-container-2{
+    overflow: hidden;
+    width: 70%;
+    height: 90%;
+    border: 2px solid white;
+    /* border-radius: 50px; */
+
+}
+.page2-btn-2{
+    width: 50%;
+    height: 90%;
+    border-radius: 120px;
+    border: 1px solid transparent;
+    background: #ffa500;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.img-size-2{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+} 
+
+
+.page2-cards-div-2{
+    height: 85%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ---------------------section-2-END--------------------------- */
+
+/* ---------------------section-3---------------------------- */
+
+
+.classes-heading-3{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.classes-heading-3 p {
+    font-size: 3vw;
+}
+.container-3{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+}
+.bg-img-3{
+    height: 100%;
+    width: 100%;
+    /*background-color: black;
+    */background: url(../assets/images/keagan-henman-xPJYL0l5Ii8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: absolute;
+    */filter: blur(5px);
+    -webkit-filter: blur(5px);
+    /*z-index: 99;
+     */
+}
+.wrapper-3{
+    position: absolute;
+    width: 100%;
+    /* width: 65%; */
+    top: 211%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* .page3-partners{
+    height: 90%;
+    background-color: black;
+} */
+.page2-card-wrapper-3{
+    z-index: 111;
+    height: 60%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-container-3{
+    overflow: hidden;
+    width: 70%;
+    height: 90%;
+    border: 2px solid white;
+    /* border-radius: 50px; */
+
+}
+.page2-btn-3{
+    width: 50%;
+    height: 90%;
+    border-radius: 120px;
+    border: 1px solid transparent;
+    background: #ffa500;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    font-weight: 500;
+}
+.img-size-3{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+} 
+
+
+.page2-cards-div-3{
+    height: 85%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ---------------------section-3-END--------------------------- */

@@ -1,0 +1,246 @@
+@media (min-width:280px) and (max-width:650px){
+    .first-bgimage{
+        height: 70%;
+        /* top: 0px; */
+        /* left: 0px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fifth-bgimage-wrapper{
+        height: 100%;
+    }
+    .first-bgimage .card-1{
+        width: 90%;
+        background-color: transparent;
+        top: auto;
+        left: auto;
+    }
+    .card-1 .card-1-wrapper{
+        /* width: 80%; */
+        display: flex;
+        height: 70%;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column
+    }
+    .head-revitalize{
+        display: none;
+    }
+    .head-revitalize-2{
+        font-size: 8vw;
+        display: block;
+    }
+    .para-1{
+        font-size: 4.25vw;
+    }
+    .card-1-wrapper .head-container{
+        width: 100%;
+        text-align: center;
+
+        /* font-size: ; */
+    }
+    .card-1-wrapper .card-btn-container{
+        width: 50%;
+        height: 40%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card-btn-container .card-btn-1 ,  .card-btn-container .card-btn-2 {
+        height: 35px;
+        width: 150px;
+    }
+    .link-wrapper{
+        display: none;
+    }
+
+}
+
+
+/* ------------------------SECTION_2------------------------------ */
+@media (min-width:280px) and (max-width:650px){
+    .img-wrapper{
+        display: flex;
+        height: 70%;
+        /* flex-direction: column; */
+    }
+    .img-row-1 div{
+        width: 160px;
+    }
+    .img-row-2 div{
+        width: 160px;
+    }
+    .img-row-1, .img-row-2{
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .img-row-1 .icon-weight-loss, .img-row-1 .icon-classic-yoga{
+        border: 0px;
+    }
+    .img-row-2 .icon-body-building, .img-row-2 .icon-hypertrophy{
+        border: 0px;
+    }
+    @media (min-width:500px) and (max-width:650px) {
+        .img-row-1 div{
+            width: 220px;
+        }
+        .img-row-2 div{
+            width: 220px;
+        }
+        
+    }
+}
+
+
+
+/* ------------------------SECTION_3------------------------------ */
+@media (min-width:280px) and (max-width:650px){
+    .third-bgimage .subscription-heading{
+        display: none;
+    }
+    .third-bgimage-wrapper{
+        width: 100%;
+    }
+    .third-bgimage-wrapper .third-card-wrapper{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .cards{
+        height: 30% !important;
+    }
+    .cards .sameAsPrice{
+        font-size: 2.5vw;
+    }
+    .cards .cards-div-grey-para{
+        font-size: 2vw;
+    }
+    .cards .card-btn-3{
+        font-size: 2vw;
+    }
+}
+
+/* ------------------------SECTION_4------------------------------ */
+@media (min-width:280px) and (max-width:480px){
+    .div-club-info{
+        flex-direction: column;
+        height: 100%;
+    }
+    .sub-cards{
+        height: 30%;
+        width: 50%;
+    }
+    .sub-cards-img{
+        /* width: 100%; */
+        height: 50%;
+    
+    }
+    .gym-img-size{
+        height: 30px;
+    }
+    .sub-cards .title{
+        font-size: 3vw;
+    }
+    .sub-cards-para .scpara
+    {
+        font-size: 2vw;
+        line-height: 7px;
+    }
+
+}
+/* ------------SECTION-5-------------- */
+@media (min-width:280px) and (max-width:650px){
+    .two{
+        display: none;
+    }
+    .third-card-wrapper{
+        flex-direction: column;
+    }
+    .third-card-wrapper .review-cards{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .review-cards .cards-div{
+        height: max-content;
+        margin-left: 10px;
+    }
+    .cards-img-div{
+        /*object-fit: cover;
+        */height: 150px;
+        width: 60%;
+        overflow: hidden;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .review-img-size{
+        width: 100%;
+    }
+    .review-para{
+        font-size: 3vw;
+        margin: 0;
+    }
+}
+
+
+
+/* --------------------------------------------------------------TABLET-VIEW---------------------------------------------------------------- */
+
+
+/* --------------------------SECTION-1---------------------------- */
+@media (min-width:651px) and (max-width:1000px){
+    .card-1-wrapper{
+        width: 80%;
+    }
+
+
+
+
+/* --------------------------SECTION-3----------------------------
+    .third-card-wrapper .cards{
+        height: 70%;
+    }
+    .cards .cards-div{
+        height: 30px;
+    } */
+
+}
+
+
+
+/* --------------------------SECTION-3---------------------------- */
+@media (min-width:651px) and (max-width:1000px){
+
+    .third-card-wrapper .cards{
+        height: 70%;
+    }
+    .cards .cards-div{
+        height: 30px;
+    }
+
+}
+
+
+
+
+
+/* --------------------------SECTION-3---------------------------- */
+@media (min-width:651px) and (max-width:1000px){
+
+    .review-cards{
+        height: 90%;
+        /* width: 30%; */
+    }
+    .cards-div{
+        height: 20%;
+    }
+    .review-para{
+        font-size: 1.5vw;
+    }
+}

@@ -1,0 +1,104 @@
+/* -----------------------SECTION-1-------------------------- */
+@media (min-width:280px) and (max-width:650px){
+    .box-container{
+        width: 100%;
+        flex-direction: column;
+        height: 95%;
+        justify-content: center;
+        /* align-items: center; */
+
+    }
+    .left-container, .right-container{
+        height: 49%;
+        width: 90%;
+
+    }
+
+    .box-container-1 .right-container{
+        margin-top: 10px;
+
+        height: max-content !important;
+    }
+    .right-container .para{
+        font-size: 2.5vw;
+    }
+}
+/* -----------------------SECTION-2-------------------------- */
+@media (min-width:280px) and (max-width:650px){
+    .box-container-2{
+        width: 100%;
+        flex-direction:column-reverse;
+        
+        height: 90%;
+    }
+    .left-container-2, .right-container-2{
+        height: 49%;
+        width: 90%;
+
+    }
+    .heading h1{
+        font-size: 5.5vw;
+    }
+    .list-container ul li{
+        font-size: 2.5vw;
+    }
+}
+
+/* -----------------------SECTION-3-------------------------- */
+@media (min-width:280px) and (max-width:650px){
+    .box-container-3{
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 95%;
+    }
+    .left-container, .right-container{
+        height: 49%;
+        width: 90%;
+
+    }
+    .left-container{
+        height: max-content !important;
+    }
+    .left-container .para{
+        margin-top: 10px;
+        font-size: 2.5vw;
+    }
+}
+
+
+/* --------------------------------------------------------------TABLET-VIEW---------------------------------------------------------------- */
+
+/* --------------------------SECTION-1---------------------------- */
+@media (min-width:650px) and (max-width:900px){
+    .para{
+        font-size: 1.7vw;
+    }
+
+    @media (min-width:800px) and (max-width:1200px){
+        .para{
+            font-size: 1vw;
+        }
+    }
+}
+
+@media (min-width:800px) and (max-width:1200px){
+    .para{
+        font-size: 1.5vw;
+    }
+}
+
+/* --------------------------SECTION-2---------------------------- */
+@media (min-width:650px) and (max-width:1300px){
+    .heading h1{
+        font-size: 2.2vw;
+    }
+    .list-container ul li{
+        font-size: 1.23vw;
+    }
+}
+
+@media (min-width:800px) and (max-width:1200px){
+    .heading h1{
+        font-size: 1.7vw;
+    }
+}

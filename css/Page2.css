@@ -1,0 +1,220 @@
+/* --------------Section-1------------------ */
+.classes-heading{
+    color: white;
+    font-size: 2.77vw;
+    letter-spacing: 1px;
+    border-bottom: 2px solid white;
+}
+.page2-class-timing{
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    background: url(../assets/images/bg\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: lightgray 50% ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2-classTiming-wrapper{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.page2-card-wrapper{
+    height: 350px;
+    width: 80%;
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    align-items: center;
+    justify-content: space-around;
+}
+.page2-cards-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-container{
+    overflow: hidden;
+    width: 50%;
+    height: 90%;
+    border: 2px solid white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.img-size {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.resize{
+    height: 100%;
+}
+.page2-btn-1{
+    width: 60%;
+    height: 85%;
+    border-radius: 120px;
+    border: 1px solid #000;
+    background: #C53B3B;
+    color: white;
+    font-size: 1.38vw;
+    font-weight: 400;
+}
+/* .separate{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+
+/* ------------------section-1-END----------------------- */
+
+
+
+/* ------------------section-2----------------------- */
+
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 113%;
+}
+.page2-partners{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.black-bg{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+.beige-bg{
+    /* position: relative;
+    top: -20%; */
+    height: 50%;
+    width: 100%;
+    background-color: #FFA50057;
+}
+.page2-card-wrapper-2{
+    z-index: 111;
+    height: 70%;
+    width: 80%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-container-2{
+    overflow: hidden;
+    width: 70%;
+    height: 90%;
+    border: 2px solid white;
+    /* border-radius: 50px; */
+
+}
+.page2-btn-2{
+    width: 50%;
+    height: 90%;
+    border-radius: 120px;
+    border: 1px solid transparent;
+    background: #4D4848;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+.img-size-2{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+} 
+
+
+.page2-cards-div-2{
+    height: 85%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ------------------section-2-END----------------------- */
+
+
+
+/* ------------------section-3----------------------- */
+
+
+.page2-img-carousel{
+    overflow-x: hidden;
+
+    height: 70%;
+    background-color: black;
+}
+.img-slider{
+    overflow: hidden;
+    overflow-x: hidden;
+
+    width: 400%;
+    height: 100%;
+    display: flex;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+.slides{
+    width: 100%;
+
+}
+.slider-img-size{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.btn-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    width: 100%;
+    top:235%;
+}
+.btn-prev , .btn-next{
+    font-size: 50px;
+    background-color: transparent;
+    border: transparent;
+}
+
+
+/* ------------------section-3-END----------------------- */
